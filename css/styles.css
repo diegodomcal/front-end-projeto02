@@ -1,0 +1,82 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    background-color: #EAF2E3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topo{
+    padding: 20px;
+    background-color: #F2CD60;
+    margin: 35px 280px;
+    border-radius: 30px;
+    text-align: left;
+    display: block;
+    max-width: 350px;
+    position: relative;
+    transform: rotate(-20deg);
+    z-index: 2;
+}
+
+h1{
+    font-size: 40px;
+    display: inline;
+}
+
+/* Imagem */
+img{
+    width: 25%;
+    position: relative;
+    top: 12px;
+    left: 11px
+}
+
+
+.formulario{
+    padding: 70px;
+    background-color: #61E8E1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 8%;
+    left: 500px;
+    z-index: 1;
+
+}
+
+input[type="text"],
+input[type="email"]{
+    display: block;
+    margin: auto;
+    padding: 10px 50px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #F25757;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+::placeholder{
+    text-align: center;
+    color:black
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: #F25757;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
