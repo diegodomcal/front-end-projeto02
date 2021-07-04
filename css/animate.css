@@ -7,19 +7,20 @@
 }
 
 .formulario{
-    animation: escorrega 1s ease-in;
+    animation: escorrega 1s ease ;
 }
 
 /* Animação de "abertura" da div topo */
 
 @keyframes abre {
-    0%{width: 0%; height: 0%;}
-    33%{width: 0%; height: 0%;}
+    0%{width: 0%; height: 0%; opacity: 0;}
+    33%{width: 0%; height: 0%;opacity: 0;}
+    50%{opacity: 100;}
     100%{width: 100%; height: 100%;}
 }
 
-.topo, h1{
-    animation: abre 2.5s ease-out;
+.topo{
+    animation: abre 1.3s ease-out;
 }
 
 /* Animação de Fade-in das letras */
@@ -31,5 +32,5 @@
 }
 
 h1,img {
-    animation: aparece 3s ease;
+    animation: aparece 2s ease;
 }
